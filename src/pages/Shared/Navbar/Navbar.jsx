@@ -12,6 +12,9 @@ const Navbar = () => {
       <li>
         <NavLink to="/career">Career</NavLink>
       </li>
+      <li>
+        <NavLink to="/login">Login</NavLink>
+      </li>
     </>
   );
   return (
@@ -51,7 +54,7 @@ const Navbar = () => {
             <img src={user} />
           </div>
         </label>
-        <Link>
+        <Link to="/login">
           <button>Login</button>
         </Link>
       </div>
